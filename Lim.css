@@ -1,0 +1,98 @@
+/* Inserisco lo sfondo della pagina */
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* Inserisco le caratteristiche del contenitore del corpo della pagina.
+Utilizzo valori percentuali per rendere la pagina adattabile a più dispositivi.*/
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2% 20% 6% 20%;
+  border-radius: 15px;
+  padding: 5%; /* utilizzo un padding per creare uno spazio tra i due contenitori. */
+}
+
+/* Aggiungo le proprietà all'header */
+header{
+  text-align: center;
+}
+
+#logo {
+  width: 30%;
+  height: 20%;
+}
+
+/* Inserisco un font alla pagina e
+ ricerco attraverso color picker il colore esatto */
+
+#titolo{
+ color: #00DD00;
+}
+
+/* allineo il nav e aggiungo un :hover per abbellire i button */
+
+nav {
+  text-align: center;
+  background-color: #00DD00;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+button:hover {
+  background-color: #10b17d;
+}
+
+/* inizio la creazione delle sezioni contenenti le scelte di monopattini disponibili */
+
+section{
+ margin-top: 3%;
+}
+
+.monopattino {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.ubicazione {
+color: white;
+}
+
+/* creo dei div con id propri per definire la carica di ogni monopattino */
+
+#statoCarica1 {
+  height: 20px;
+  width: 40%;
+  border-radius: 6px;
+  background-color: #f3a327;
+}
+
+#statoCarica2 {
+  height: 20px;
+  width: 60%;
+  border-radius: 6px;
+  background-color: #0d8331;
+}
+
+#statoCarica3 {
+  height: 20px;
+  width: 20%;
+  border-radius: 6px;
+  background-color: #89071e;
+}
+
+/* concludo il progetto mettendo una firma. */
+
+footer {
+  text-align: center;
+}
+
+#conclusione {
+  display: inline-block;
+  text-decoration: underline;
+  color: black;
+}
